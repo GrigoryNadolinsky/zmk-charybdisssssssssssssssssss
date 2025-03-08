@@ -112,6 +112,13 @@
             bindings = <&kp LT &kp EQUAL &kp SPACE>;
             label = "LT_EQ";
         };
+
+        cdtj: cdtj {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&none>;
+            label = "CDTJ";
+        };
     };
 
     keymap {
@@ -172,7 +179,7 @@
             bindings = <
   &trans  &trans         &kp KP_NUMLOCK  &trans  &trans    &trans  &trans  &trans  &trans  &trans
   &trans  &trans         &trans          &trans  &trans    &trans  &trans  &trans  &trans  &trans
-  &trans  &kp LG(LS(S))  &kp DEL         &trans  &trans    &trans  &trans  &trans  &trans  &trans
+  &trans  &kp LG(LS(S))  &kp DEL         &trans  &trans    &trans  &cdtj   &trans  &trans  &trans
                          &trans          &trans  &trans    &trans  &trans
             >;
         };
