@@ -121,7 +121,7 @@
             display-name = "Alpha";
             bindings = <
   &kp J        &kp G        &kp M        &kp P        &kp V              &ht AMPS SEMICOLON  &ht UNDERSCORE PERIOD  &ht ASTERISK SLASH  &ht QUESTION DOUBLE_QUOTES  &ht EXCLAMATION SQT
-  &hm LGUI R   &hm LALT S   &hm LSHFT N  &hm LCTRL D  &kp B              &kp COMMA           &hm RCTRL A            &hm RSHFT E         &hm LALT I                  &hm RGUI H
+  &hm LGUI R   &hm LALT S   &hm LSHFT N  &hm LCTRL D  &kp B              &ht MINUS COMMA     &hm RCTRL A            &hm RSHFT E         &hm LALT I                  &hm RGUI H
   &mt LC(Z) X  &mt LC(X) F  &mt LC(C) L  &mt LC(V) C  &kp W              &ht PIPE COLON      &kp U                  &kp O               &kp Y                       &kp K
                             &lt 7 TAB    &lt SYM T    &lt NUMFN ENTER    &lt NAV SPACE       &lt UTIL ESC
             >;
